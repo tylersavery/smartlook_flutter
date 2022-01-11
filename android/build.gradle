@@ -15,8 +15,8 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        mavenCentral()
-        maven {
+        // mavenCentral()
+        mavenCentral {
             url "https://sdk.smartlook.com/android/release"
         }
     }
